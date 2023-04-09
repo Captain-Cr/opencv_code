@@ -51,7 +51,7 @@ using namespace cv;
 */
 
 
-int main(int argc, char* argv[])
+int main_dft(int argc, char* argv[])
 {
 	// 输入一个矩阵，对其进行处理，展示正逆变换的关系
 	Mat a = (Mat_<float>(5, 5) << 1, 2, 3, 4, 5,
