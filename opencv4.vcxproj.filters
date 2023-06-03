@@ -159,5 +159,59 @@
     <ClCompile Include="mydft2.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="myMulSpectrums.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="myDct.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="myIntegral.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="myFloodfill.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="myWatershed.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="myGrabCut.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="myPyMeanShiftFiltering.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="myInpaint.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="myDrawKeyPoints.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="myCornerHarris.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="myGoodFeaturesToTrack.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="myCornerSubPix.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="myORB.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mySURF.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="myOrbMatch.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="myOrbMatchFlann.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="myOrbMatchRANSAC.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="myChessBoard.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

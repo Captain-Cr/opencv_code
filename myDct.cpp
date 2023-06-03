@@ -37,7 +37,7 @@ using namespace cv;
 	Additional:dct（）函数只能变换单通道的矩阵，因此需要分别对3个通道进行离散余弦变换，并将变换结果重新组成一副具有三通道的彩色图像。
 */
 
-int main(int argc, char* argv[])
+int main1345(int argc, char* argv[])
 {
 	Mat kernel = (Mat_<float>(5, 5) << 1, 2, 3, 4, 5,
 		2, 3, 4, 5, 6,

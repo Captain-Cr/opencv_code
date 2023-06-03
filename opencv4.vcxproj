@@ -75,12 +75,16 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
+    <IncludePath>D:\opencv4\opencv\build\install\include\opencv2;D:\opencv4\opencv\build\install\include;$(IncludePath)</IncludePath>
+    <LibraryPath>D:\opencv4\opencv\build\install\x64\vc15\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
+    <IncludePath>D:\opencv4\opencv\build\install\include;D:\opencv4\opencv\build\install\include\opencv2;$(IncludePath)</IncludePath>
+    <LibraryPath>D:\opencv4\opencv\build\install\x64\vc15\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -156,39 +160,57 @@
     <ClCompile Include="myBlur.cpp" />
     <ClCompile Include="myCalcHist.cpp" />
     <ClCompile Include="myCanny.cpp" />
+    <ClCompile Include="myChessBoard.cpp" />
     <ClCompile Include="myConnectComponents.cpp" />
     <ClCompile Include="myConnectedComponentsWithStats.cpp" />
+    <ClCompile Include="myCornerHarris.cpp" />
+    <ClCompile Include="myCornerSubPix.cpp" />
     <ClCompile Include="myCtreateTrackbar.cpp" />
+    <ClCompile Include="myDct.cpp" />
     <ClCompile Include="myDeepShallowcopy.cpp" />
     <ClCompile Include="mydft2.cpp" />
     <ClCompile Include="myDistanceTransform.cpp" />
+    <ClCompile Include="myDrawKeyPoints.cpp" />
     <ClCompile Include="myEdge.cpp" />
     <ClCompile Include="myEqualizeHist.cpp" />
     <ClCompile Include="myErode.cpp" />
     <ClCompile Include="myFilp.cpp" />
     <ClCompile Include="myFilter2D.cpp" />
     <ClCompile Include="myFitLine.cpp" />
+    <ClCompile Include="myFloodfill.cpp" />
     <ClCompile Include="myGaussianBlur.cpp" />
     <ClCompile Include="myGaussNoise.cpp" />
     <ClCompile Include="myGetDerivKernels.cpp" />
+    <ClCompile Include="myGoodFeaturesToTrack.cpp" />
+    <ClCompile Include="myGrabCut.cpp" />
     <ClCompile Include="myHoughLines.cpp" />
     <ClCompile Include="myHoughLinesP.cpp" />
     <ClCompile Include="myHoughLinesPointSet.cpp" />
+    <ClCompile Include="myInpaint.cpp" />
+    <ClCompile Include="myIntegral.cpp" />
     <ClCompile Include="myLaplacian.cpp" />
     <ClCompile Include="myLUT.cpp" />
     <ClCompile Include="myMedianBlur.cpp" />
     <ClCompile Include="myMorphologyApp.cpp" />
     <ClCompile Include="myMouse.cpp" />
+    <ClCompile Include="myMulSpectrums.cpp" />
     <ClCompile Include="myNormalize.cpp" />
+    <ClCompile Include="myORB.cpp" />
+    <ClCompile Include="myOrbMatch.cpp" />
+    <ClCompile Include="myOrbMatchFlann.cpp" />
+    <ClCompile Include="myOrbMatchRANSAC.cpp" />
     <ClCompile Include="myPlot.cpp" />
+    <ClCompile Include="myPyMeanShiftFiltering.cpp" />
     <ClCompile Include="myPyramid.cpp" />
     <ClCompile Include="mySaltAndPepper.cpp" />
     <ClCompile Include="myselfFilter.cpp" />
     <ClCompile Include="mySobel.cpp" />
+    <ClCompile Include="mySURF.cpp" />
     <ClCompile Include="myThinning.cpp" />
     <ClCompile Include="myThreshold.cpp" />
     <ClCompile Include="myWarpAffine.cpp" />
     <ClCompile Include="mywarpPolar.cpp" />
+    <ClCompile Include="myWatershed.cpp" />
     <ClCompile Include="像素逻辑运算.cpp" />
     <ClCompile Include="反向投影.cpp" />
     <ClCompile Include="图像分离和合并.cpp" />
